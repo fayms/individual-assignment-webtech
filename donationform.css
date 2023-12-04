@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    font-family: Poppins, Arial, sans-serif;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .top-left {
+    font-size: 25px;
+    color: #0D656A;
+    font-weight: bold;
+  }
+  
+  .top-right {
+    font-size: 25px;
+    color: #0D656A;
+    font-weight: bold;
+    text-align: right; 
+  }
+  
+  .director-info,
+  .participation-info,
+  .details-info,
+  .effect-info {
+    color: black;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .participation-info {
+    font-weight: bold;
+  }
+  
+  .bottom-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bottom-left {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  
+  .bottom-right {
+    text-align: center; 
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  
+  

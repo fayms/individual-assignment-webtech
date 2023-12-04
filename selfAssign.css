@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.Main_topic {
+    background-image: url('pngtree-pastel-colorful-background-clouds-image_312444.jpg');
+    background-size: cover;
+    background-position: center;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    color: #333;
+}
+#donationForm:hover {
+    color: red;
+    background-color: yellow;
+}
+#RM1Camp {
+    font-family: 'Cursive', 'Poppins', Arial, sans-serif; /* Add a cursive font */
+    font-size: 36px; /* Adjust the font size for a more festive look */
+    color: #ff69b4; /* Set a festive color (pink) */
+}
+
+#verse {
+    font-family: 'Cursive', 'Poppins', Arial, sans-serif; /* Add a cursive font */
+    font-size: 18px; /* Adjust the font size for the hadith */
+    color: #555; /* Darken the color for better readability */
+}
+#tagline {
+    font-size: 18px;
+    font-style: italic;
+    color: #007bff; /* Blue color, you can adjust it */
+    margin-top: 10px;
+}
+
+#contact {
+    font-size: 14px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+

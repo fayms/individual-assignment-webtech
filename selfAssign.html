@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="selfAssign.css">
+    <script src="selfAssign.js"></script>
+    <title>RM1 CAMPAIGN</title>
+</head>
+
+<div id="contact">
+    <p>IIUM ENDOWMENT FUND <br>Level 3, Rectory <br>International Islamic University Malaysia <br>P.O.Box 10 <br>50728
+        Kuala Lumpur <br>Tel: 03 6196 4268 <br>Email: ief@iium.edu.my <br>Website: www.iium.edu.my/ief <br>Facebook:
+        www.facebook.com/ief.official/</p>
+    <a style="color: purple; background-color: whitesmoke;" id="donationForm" href="donationform.html">print donation
+        form</a>
+
+</div>
+
+<body>
+    <div class="Main_topic">
+        <img height="100" width="100" src="international-islamic-university-malaysia-logo-221DAA8603-seeklogo.com.png"
+            alt="IIUM Logo">
+        <br>
+
+        <h1 id="RM1Camp">RM1 CAMPAIGN</h1>
+        <p id="verse">“The example of those who spend their wealth in the
+            way of Allah is like a seed [of grain] which grows seven
+            spikes; in each spike is a hundred grains. And Allah
+            multiplies [His reward] for whom He wills. And Allah is
+            all-Encompassing and Knowing.”
+            Al Baqarah:261
+        </p>
+        <p id="tagline">Let your contribution be perpetual for the pleasure of Allah</p>
+
+        <form id="salaryDeductionForm" onsubmit="return validateForm()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="staffNo">Staff No.:</label>
+            <input type="number" id="staffNo" name="staffNo" required><br>
+
+            <label for="kcdio">K/C/D/I/O:</label>
+            <input type="text" id="kcdio" name="kcdio" required><br>
+
+            <label for="contactNo">Contact No.:</label>
+            <input type="tel" id="contactNo" name="contactNo" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="amount">Amount to be Deducted RM:</label>
+            <input type="number" id="amount" name="amount" required><br>
+
+            <label for="startMonth">Deduction Start Month:</label>
+            <input type="month" id="startMonth" name="startMonth" required><br>
+
+            <label for="endMonth">Deduction End Month:</label>
+            <input type="month" id="endMonth" name="endMonth" required><br>
+
+            <input type="radio" id="agree" name="agreement" required>
+            <label for="agree">I agree to the terms and conditions</label><br>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <p>Your contribution is much appreciated, may Allah repay your good deed.</p>
+    </div>
+
+</body>
+
+</html>
